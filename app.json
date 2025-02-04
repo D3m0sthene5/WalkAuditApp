@@ -13,16 +13,32 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.danielkind.walkauditapp",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAFYITLw8D6O6TZh61za3qR1bMLXJbBRAU"
+      },
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "config": {
+        "googleMapsApiKey": "AIzaSyAFYITLw8D6O6TZh61za3qR1bMLXJbBRAU"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.danielkind.walkauditapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5182baeb-85f0-4efb-9beb-6d0acb5b2406"
+      }
     }
   }
 }
